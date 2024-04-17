@@ -29,7 +29,7 @@ const baseUrlNeynarV2 = process.env.BASE_URL_NEYNAR_V2;
 
 export const app = new Frog({
   assetsPath: '/',
-  basePath: '/api/agora-voting',
+  basePath: '/api/voting',
   // Supply a Hub to enable frame verification.
   // hub: neynar({ apiKey: 'NEYNAR_FROG_FM' })
   imageOptions: {
